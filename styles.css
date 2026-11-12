@@ -181,7 +181,7 @@ body.is-menu-open .site-header{
 
 /* ---------- Hero ---------- */
 .hero{
-  position:relative;height:100svh;min-height:36rem;overflow:hidden;background:var(--ink);
+  position:relative;height:100svh;min-height:28rem;overflow:hidden;background:var(--ink);
   color:var(--paper);
 }
 .hero-stage{position:absolute;inset:0}
@@ -197,33 +197,33 @@ body.is-menu-open .site-header{
 .hero-slide.is-active img{animation:ken 18s ease-in-out alternate forwards}
 @keyframes ken{
   from{transform:scale(1) translate3d(0,0,0)}
-  to{transform:scale(1.065) translate3d(-1.1%,-.6%,0)}
+  to{transform:scale(1.03) translate3d(-0.5%,0,0)}
 }
 .hero-slide:nth-child(2).is-active img{animation-name:ken-b}
 @keyframes ken-b{
-  from{transform:scale(1.05) translate3d(0,0,0)}
-  to{transform:scale(1) translate3d(1%,.4%,0)}
+  from{transform:scale(1.03) translate3d(0,0,0)}
+  to{transform:scale(1) translate3d(0.5%,0,0)}
 }
 .hero-slide:nth-child(4).is-active img{animation-name:ken-c}
 @keyframes ken-c{
   from{transform:scale(1) translate3d(0,0,0)}
-  to{transform:scale(1.06) translate3d(1.2%,-0.4%,0)}
+  to{transform:scale(1.03) translate3d(0.5%,0,0)}
 }
 .hero-scrim{
   position:absolute;inset:0;z-index:2;pointer-events:none;
   background:
-    linear-gradient(to top, rgba(28,26,23,.62) 0%, rgba(28,26,23,.22) 36%, rgba(28,26,23,0) 58%),
+    linear-gradient(to top, rgba(28,26,23,.72) 0%, rgba(28,26,23,.28) 26%, rgba(28,26,23,0) 48%),
     linear-gradient(to bottom, rgba(28,26,23,.42) 0%, rgba(28,26,23,0) 22%);
 }
 .hero-content{
   position:absolute;left:0;right:0;bottom:0;z-index:3;
-  padding:0 4.5vw 3.6rem;display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;
+  padding:0 4.5vw 2.4rem;display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;
 }
 .hero-content .kicker{color:var(--gold-dim);margin-bottom:.55rem}
 .hero-content .hero-title{
   font-family:var(--display);font-weight:500;font-style:italic;
-  font-size:clamp(1.85rem,3.4vw,2.85rem);letter-spacing:-.02em;line-height:1.12;
-  max-width:18em;text-shadow:0 2px 28px rgba(28,26,23,.55), 0 1px 3px rgba(28,26,23,.45);
+  font-size:clamp(1.7rem,3vw,2.5rem);letter-spacing:-.02em;line-height:1.12;
+  max-width:16em;text-shadow:0 2px 28px rgba(28,26,23,.55), 0 1px 3px rgba(28,26,23,.45);
 }
 .hero-content .hero-meta{
   font-family:var(--sans);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;
@@ -555,7 +555,7 @@ body.is-menu-open .site-header{
 @media (max-width:860px){
   .hero-scrim{
     background:
-      linear-gradient(to top, rgba(28,26,23,.72) 0%, rgba(28,26,23,.32) 42%, rgba(28,26,23,0) 64%),
+      linear-gradient(to top, rgba(28,26,23,.78) 0%, rgba(28,26,23,.32) 34%, rgba(28,26,23,0) 52%),
       linear-gradient(to bottom, rgba(28,26,23,.48) 0%, rgba(28,26,23,0) 24%);
   }
   html,body{font-size:18px}
@@ -584,7 +584,7 @@ body.is-menu-open .site-header{
   .filmstrip img,.filmstrip .is-tall img{height:48vw;max-height:none}
   .filmstrip .is-short img{height:36vw}
   .filmstrip figure:nth-child(3),.filmstrip figure:nth-child(6),.filmstrip figure:nth-child(5){margin-bottom:0}
-  .hero-content{flex-direction:column;align-items:flex-start;padding:0 1.4rem 2.2rem;gap:1.4rem}
+  .hero-content{flex-direction:column;align-items:flex-start;padding:0 1.4rem 1.8rem;gap:1rem}
   .scroll-hint{align-items:flex-start}
   .scroll-hint .line{height:2.2rem}
   .section{padding:4.2rem 0}
