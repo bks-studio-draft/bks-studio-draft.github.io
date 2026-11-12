@@ -4,110 +4,187 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Albums — Benjamin Korn Studio</title>
-  <meta name="description" content="Handcrafted Italian albums, showboxes, and coffee table books by Benjamin Korn Studio.">
+  <meta name="description" content="Handcrafted wedding albums and coffee table books by Benjamin Korn Studio, made in Italy and designed page by page.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
-<header class="site-header">
+<header class="site-header is-solid">
   <div class="header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-script">Benjamin Korn</span>
-      <span class="logo-sub">Studio</span>
+    <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav>
-        <a href="about.html">The Studio</a>
-        <a href="experience.html">Experience</a>
-        <a href="photography.html">Photography</a>
-        <a href="cinematography.html">Film</a>
-        <a href="albums.html" aria-current="page">Albums</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
   </div>
 </header>
+<div class="menu-overlay" id="site-menu" role="dialog" aria-label="Site menu">
+  <div class="menu-left">
+    <nav>
+      <ul class="menu-links">
+        <li><a href="index.html" data-img="index.html"><span class="num">01</span>Home</a></li>
+        <li><a href="about.html" data-img="about.html"><span class="num">02</span>The Studio</a></li>
+        <li><a href="experience.html" data-img="experience.html"><span class="num">03</span>Experience</a></li>
+        <li><a href="photography.html" data-img="photography.html"><span class="num">04</span>Photography</a></li>
+        <li><a href="cinematography.html" data-img="cinematography.html"><span class="num">05</span>Film</a></li>
+        <li><a href="albums.html" data-img="albums.html" aria-current="page"><span class="num">06</span>Albums</a></li>
+        <li><a href="catalog.html" data-img="catalog.html"><span class="num">07</span>Catalog</a></li>
+        <li><a href="faqs.html" data-img="faqs.html"><span class="num">08</span>FAQs</a></li>
+        <li><a href="contact.html" data-img="contact.html"><span class="num">09</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-right">
+      <img src="px-18253474887.webp" data-img="index.html" class="" style="object-position:center 32%" alt="" width="800" height="1200">
+      <img src="px-18253474876.webp" data-img="about.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253474880.webp" data-img="experience.html" class="" style="object-position:center 48%" alt="" width="800" height="1200">
+      <img src="px-18253479932.webp" data-img="photography.html" class="" style="object-position:center 72%" alt="" width="800" height="1200">
+      <img src="px-18253475005.webp" data-img="cinematography.html" class="" style="object-position:center 55%" alt="" width="800" height="1200">
+      <img src="photo-116.webp" data-img="albums.html" class="is-on" style="object-position:center 50%" alt="" width="800" height="1200">
+      <img src="spread-01.webp" data-img="catalog.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253479854.webp" data-img="faqs.html" class="" style="object-position:center 38%" alt="" width="800" height="1200">
+      <img src="photo-124.webp" data-img="contact.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+    <div class="menu-meta">
+      406 Central Avenue, Cedarhurst, Long Island<br>
+      <a href="tel:+13474044109">347.404.4109</a> &nbsp;·&nbsp; <a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a>
+    </div>
+  </div>
+</div>
 <main>
 
-<section class="section-tight">
-  <div class="wrap reveal" style="max-width:40rem">
-    <span class="kicker">The albums</span>
-    <h1>An album should not live on a shelf.</h1>
-    <p class="lede">The day deserves more than a book you open twice a year and put away. So we design ours to be seen. To sit on the coffee table. To rest where guests gather. To become part of the home you are building together.</p>
-  </div>
-</section>
-<section class="section-tight">
-  <div class="wrap split">
-    <figure class="frame frame-calm reveal">
-      <img src="photo-116.jpg" width="720" height="480" alt="Handcrafted wedding albums, standing together">
+<header class="page-mast">
+  <div class="page-mast-grid">
+    <div class="reveal">
+      <span class="kicker">Our albums</span>
+      <h1>An album should not live on a shelf.</h1>
+      <p class="lede">The day deserves more than a book you open twice a year and put away. So we design ours to be seen. To sit on the coffee table. To rest where guests gather. To become part of the home you are building together.</p>
+    </div>
+    <figure class="page-mast-fig reveal d2">
+      <img src="photo-116.webp" width="533" height="800" alt="A handcrafted wedding album standing on its edge">
     </figure>
-    <div class="prose reveal">
-      <p>Every album is designed in a clean, contemporary style that lets the photographs speak for themselves. The spreads are custom, never templated, each one composed to carry its part of the story. The exterior is yours to shape, finished to match the rooms it will live in, or kept quiet and timeless.</p>
-      <h3 style="margin-top:1.4rem">Master album collection</h3>
-      <p>Albums are handcrafted in Italy, encased in a leather-bound album showbox case. The cover, back, and spine can be customized, with a crystal glance photo cover option, a choice of case color and ribbon, and a message or monogram if you wish.</p>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="lookbook">
+    <figure class="look-fig reveal">
+      <img src="photo-115.webp" width="533" height="800" alt="A leather album showbox with the album, a small box, and a screen">
+    </figure>
+    <div class="reveal d1">
+      <div class="prose" style="margin-bottom:1.8rem">
+        <p>Every album is designed in a clean, contemporary style that lets the photographs speak for themselves. The spreads are custom, never templated, each one composed to carry its part of the story. The exterior is yours to shape, finished to match the rooms it will live in, or kept quiet and timeless.</p>
+      </div>
+      <span class="kicker">Master album collection</span>
+      <h2>Handcrafted in Italy, made to be timeless.</h2>
+      <div class="prose" style="margin-top:1.4rem">
+        <p>Albums are handcrafted in Italy, encased in a leather-bound album showbox case. The cover, back, and spine can be customized, with a crystal glance photo cover option, a choice of case color and ribbon, and a message or monogram if you wish.</p>
+      </div>
     </div>
   </div>
 </section>
-<section class="section" style="background:var(--bg-warm)">
-  <div class="wrap split">
-    <div class="split-text reveal">
+
+<section class="section">
+  <div class="lookbook reverse">
+    <div class="reveal">
       <span class="kicker">Made to be seen</span>
       <h2>A modern object, made to be displayed rather than hidden away.</h2>
-      <div class="prose">
+      <div class="prose" style="margin-top:1.4rem">
         <p>Each album can rest in a showbox of its own. It can hold the album inside or stand on its own, and a few are built with a screen that plays your wedding film on a loop, so your photographs, your film, and the box itself become one piece in your home.</p>
         <p>Wherever it sits, the intention is the same. Not a keepsake tucked away, but something on display, something that draws the eye the moment someone walks into your home.</p>
       </div>
     </div>
-    <figure class="frame frame-calm reveal">
-      <img src="photo-115.jpg" width="720" height="480" alt="A leather album showbox with the album, a small box, and a screen">
+    <figure class="look-fig reveal d1">
+      <img src="photo-117.webp" width="533" height="800" alt="A stack of handcrafted albums in pale, blue, and deep covers">
     </figure>
   </div>
 </section>
-<section class="section">
-  <div class="wrap split">
-    <figure class="frame frame-calm reveal">
-      <img src="photo-61.jpg" width="1800" height="1013" alt="Albums and a coffee-table book in a room with framed photographs">
+
+<section class="section section-warm">
+  <div class="lookbook">
+    <figure class="look-fig reveal">
+      <img src="photo-61.webp" width="480" height="720" alt="Albums and a coffee-table book in a room with framed photographs">
     </figure>
-    <div class="split-text reveal">
+    <div class="reveal d1">
       <span class="kicker">Our albums</span>
       <h2>The coffee table book</h2>
-      <div class="prose">
+      <div class="prose" style="margin-top:1.4rem">
         <p>For couples who want something grander, we make coffee table books in the spirit of a fashion or travel volume. Bound at the scale of a book you would buy for its own sake, not a wedding album but a volume that happens to be about the best day of your life.</p>
         <p>It lives in the open, where people gather, the kind of book someone picks up while they wait for you and keeps turning. The book a guest reaches for and cannot put down.</p>
       </div>
     </div>
   </div>
 </section>
-<section class="section" style="background:var(--bg-warm)">
+
+<section class="section">
   <div class="wrap">
-    <div class="reveal" style="margin-bottom:2rem;max-width:36rem">
+    <div class="reveal" style="max-width:36rem;margin-bottom:2.4rem">
       <span class="kicker">Album design</span>
       <h2>Built with you, page by page.</h2>
     </div>
-    <div class="steps">
-      <article class="step reveal"><h3>01  Select photos</h3><p>Easily select your photos via your online gallery, or opt to have our album team select them for you.</p></article>
-      <article class="step reveal"><h3>02  Start designing</h3><p>Once selected, our team begins your first draft, and you choose your design preferences from our layout options.</p></article>
-      <article class="step reveal"><h3>03  Touch up</h3><p>Share feedback on your first draft via our interactive album design platform, or in our studio.</p></article>
-      <article class="step reveal"><h3>04  Finishing touches</h3><p>After the layout is approved, you finalize the album title, colors, and cover style — the home of your memories.</p></article>
-      <article class="step reveal"><h3>05  Final approval</h3><p>To ensure perfection, we send you the final album draft to review before anything is made.</p></article>
-      <article class="step reveal"><h3>06  Production</h3><p>Our albums are handcrafted in our lab in Italy. Upon arrival at our showroom, each one is inspected and then available for pickup or delivery.</p></article>
-    </div>
+    <ol class="album-steps reveal">
+      <li>
+        <span class="n">01</span>
+        <div>
+          <h3>Select photos</h3>
+          <p>Easily select your photos via your online gallery, or opt to have our album team select them for you.</p>
+        </div>
+      </li>
+      <li>
+        <span class="n">02</span>
+        <div>
+          <h3>Start designing</h3>
+          <p>Once selected, our team begins your first draft, and you choose your design preferences from our layout options.</p>
+        </div>
+      </li>
+      <li>
+        <span class="n">03</span>
+        <div>
+          <h3>Touch up</h3>
+          <p>Share feedback on your first draft via our interactive album design platform, or in our studio.</p>
+        </div>
+      </li>
+      <li>
+        <span class="n">04</span>
+        <div>
+          <h3>Finishing touches</h3>
+          <p>After the layout is approved, you finalize the album title, colors, and cover style — the home of your memories.</p>
+        </div>
+      </li>
+      <li>
+        <span class="n">05</span>
+        <div>
+          <h3>Final approval</h3>
+          <p>To ensure perfection, we send you the final album draft to review before anything is made.</p>
+        </div>
+      </li>
+      <li>
+        <span class="n">06</span>
+        <div>
+          <h3>Production</h3>
+          <p>Our albums are handcrafted in our lab in Italy. Upon arrival at our showroom, each one is inspected and then available for pickup or delivery.</p>
+        </div>
+      </li>
+    </ol>
   </div>
 </section>
+
 <section class="section">
-  <div class="wrap split">
-    <div class="split-text reveal">
+  <div class="lookbook reverse">
+    <div class="reveal">
       <span class="kicker">Beyond the album</span>
       <h2>Your favorite frames are meant for the walls of the home you live in.</h2>
-      <div class="prose">
+      <div class="prose" style="margin-top:1.4rem">
         <p>The image that stops you every time deserves a place you will see it daily, a frame, a wall, a room where life happens. We design fine prints, framed pieces, and wall art built to last, sized and finished to suit the space they will hang in. A portrait above the mantel, a gallery wall along the stairs, a single quiet print by the bed. Ask us when you are ready, or explore the options in your online gallery.</p>
       </div>
     </div>
-    <figure class="frame frame-calm reveal">
-      <img src="photo-114.jpg" width="720" height="468" alt="Framed photographs and albums in the studio showroom">
+    <figure class="look-fig reveal d1">
+      <img src="photo-114.webp" width="533" height="800" alt="Framed photographs and albums in the studio showroom">
     </figure>
   </div>
 </section>
@@ -116,10 +193,10 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a class="logo" href="index.html">
-        <span class="logo-script">Benjamin Korn</span>
-        <span class="logo-sub">Studio</span>
-      </a>
+      <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
+    </a>
       <p>A team-run studio for the modern wedding. Long Island &amp; worldwide.</p>
     </div>
     <div>
@@ -146,6 +223,13 @@
     <span>The Wedding Edit</span>
   </div>
 </footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button">Close</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">‹</button>
+  <img src="" alt="">
+  <button class="lb-nav lb-next" type="button" aria-label="Next">›</button>
+  <p class="lb-cap"></p>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

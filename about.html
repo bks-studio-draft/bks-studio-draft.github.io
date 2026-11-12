@@ -4,116 +4,202 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Studio — Benjamin Korn Studio</title>
-  <meta name="description" content="The philosophy, departments, and people behind Benjamin Korn Studio, a team-run wedding studio on Long Island.">
+  <meta name="description" content="Benjamin Korn Studio is a studio in the truest sense: a house of departments for the modern wedding.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
-<header class="site-header">
+<header class="site-header is-solid">
   <div class="header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-script">Benjamin Korn</span>
-      <span class="logo-sub">Studio</span>
+    <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav>
-        <a href="about.html" aria-current="page">The Studio</a>
-        <a href="experience.html">Experience</a>
-        <a href="photography.html">Photography</a>
-        <a href="cinematography.html">Film</a>
-        <a href="albums.html">Albums</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
   </div>
 </header>
+<div class="menu-overlay" id="site-menu" role="dialog" aria-label="Site menu">
+  <div class="menu-left">
+    <nav>
+      <ul class="menu-links">
+        <li><a href="index.html" data-img="index.html"><span class="num">01</span>Home</a></li>
+        <li><a href="about.html" data-img="about.html" aria-current="page"><span class="num">02</span>The Studio</a></li>
+        <li><a href="experience.html" data-img="experience.html"><span class="num">03</span>Experience</a></li>
+        <li><a href="photography.html" data-img="photography.html"><span class="num">04</span>Photography</a></li>
+        <li><a href="cinematography.html" data-img="cinematography.html"><span class="num">05</span>Film</a></li>
+        <li><a href="albums.html" data-img="albums.html"><span class="num">06</span>Albums</a></li>
+        <li><a href="catalog.html" data-img="catalog.html"><span class="num">07</span>Catalog</a></li>
+        <li><a href="faqs.html" data-img="faqs.html"><span class="num">08</span>FAQs</a></li>
+        <li><a href="contact.html" data-img="contact.html"><span class="num">09</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-right">
+      <img src="px-18253474887.webp" data-img="index.html" class="" style="object-position:center 32%" alt="" width="800" height="1200">
+      <img src="px-18253474876.webp" data-img="about.html" class="is-on" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253474880.webp" data-img="experience.html" class="" style="object-position:center 48%" alt="" width="800" height="1200">
+      <img src="px-18253479932.webp" data-img="photography.html" class="" style="object-position:center 72%" alt="" width="800" height="1200">
+      <img src="px-18253475005.webp" data-img="cinematography.html" class="" style="object-position:center 55%" alt="" width="800" height="1200">
+      <img src="photo-116.webp" data-img="albums.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+      <img src="spread-01.webp" data-img="catalog.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253479854.webp" data-img="faqs.html" class="" style="object-position:center 38%" alt="" width="800" height="1200">
+      <img src="photo-124.webp" data-img="contact.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+    <div class="menu-meta">
+      406 Central Avenue, Cedarhurst, Long Island<br>
+      <a href="tel:+13474044109">347.404.4109</a> &nbsp;·&nbsp; <a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a>
+    </div>
+  </div>
+</div>
 <main>
 
-<section class="section-tight">
-  <div class="wrap reveal" style="max-width:40rem">
-    <span class="kicker">The Studio</span>
-    <h1>About us</h1>
-    <p class="lede">Benjamin Korn Studio is a studio in the truest sense. Not one person with a camera, but a house of departments, each devoted to a single part of the day.</p>
-  </div>
-</section>
-<section class="section-tight">
-  <div class="wrap split">
-    <figure class="frame frame-calm reveal">
-      <img src="photo-114.jpg" width="533" height="800" alt="The Benjamin Korn Studio showroom, with albums on the table and work on the walls">
-    </figure>
-    <div class="prose reveal">
-      <p>It works like this. While one photographer stands above the room holding the whole scene in frame, the light, the crowd, the feeling of the night, someone is always close by to catch a father's face as he watches his daughter dance. And it goes on this way all day. The vows and the hand that reaches to wipe a tear. The toast and the table laughing at it. The dress before it is worn and the look on a mother's face when she sees it. Nothing falls to a single pair of eyes, and nothing is missed.</p>
-      <p>For over a decade, from a home on Long Island to wherever couples celebrate, that structure has shaped everything the studio does. The timeline is built with the planner before the day begins. The celebration and the quiet moments around it are captured together, freely and unprompted, so the day can be lived rather than managed.</p>
-      <p>When the night ends, the work moves behind the scenes. Behind the artistry is real infrastructure, a system built in house to safeguard every photograph and film from the instant it is captured and carry it straight to the editors, so the first images reach you while the day is still warm, with the full collection following soon after. And when the time comes for the album, a designer shapes it page by page into something to cherish for generations to come.</p>
+<header class="page-mast">
+  <div class="page-mast-grid">
+    <div class="reveal">
+      <span class="kicker">The Studio</span>
+      <h1>About us</h1>
+      <p class="lede">Benjamin Korn Studio is a studio in the truest sense. Not one person with a camera, but a house of departments, each devoted to a single part of the day.</p>
     </div>
+    <figure class="page-mast-fig reveal d2">
+      <img src="bkp-08.webp" width="1200" height="1800" alt="A bride standing for a portrait, the studio's photographers raising their cameras toward her">
+    </figure>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="spread">
+    <div class="spread-text reveal">
+      <div class="prose prose-drop">
+        <p>It works like this. While one photographer stands above the room holding the whole scene in frame, the light, the crowd, the feeling of the night, someone is always close by to catch a father's face as he watches his daughter dance. And it goes on this way all day. The vows and the hand that reaches to wipe a tear. The toast and the table laughing at it. The dress before it is worn and the look on a mother's face when she sees it. Nothing falls to a single pair of eyes, and nothing is missed.</p>
+        <p>For over a decade, from a home on Long Island to wherever couples celebrate, that structure has shaped everything the studio does. The timeline is built with the planner before the day begins. The celebration and the quiet moments around it are captured together, freely and unprompted, so the day can be lived rather than managed.</p>
+        <p>When the night ends, the work moves behind the scenes. Behind the artistry is real infrastructure, a system built in house to safeguard every photograph and film from the instant it is captured and carry it straight to the editors, so the first images reach you while the day is still warm, with the full collection following soon after. And when the time comes for the album, a designer shapes it page by page into something to cherish for generations to come.</p>
+      </div>
+    </div>
+    <figure class="reveal d2">
+      <img src="photo-114.webp" width="533" height="800" alt="The Benjamin Korn Studio showroom, with albums on the table and work on the walls">
+    </figure>
   </div>
 </section>
-<section class="section" style="background:var(--bg-warm)">
-  <div class="wrap">
-    <div class="reveal" style="max-width:40rem;margin-bottom:2.5rem">
+
+<section class="section">
+  <div class="philosophy-grid">
+    <figure class="reveal">
+      <img src="bkp-28.webp" width="1800" height="1013" alt="A couple standing in a stone archway, the long train of her gown across the floor">
+    </figure>
+    <div class="reveal d1">
       <span class="kicker">Our philosophy</span>
       <h2>Understanding begins with knowing the people, not just the room.</h2>
-    </div>
-    <div class="prose reveal">
-      <p>Ask most people about their wedding and they will not describe a photograph. They will describe a feeling. The hush before the doors opened. The face they searched for in the crowd. The exact moment the room tipped from ceremony into celebration. A wedding does not live in its images. It lives in what those images bring back.</p>
-      <p>Understanding that is the whole of how we work. Often we already know the faces and the history, because we have been part of it before. We met at the engagement walk. We were there for your cousin's wedding, your sister's, the celebrations your family has trusted us with for years. So by the time your day arrives, we are not strangers reading a crowd.</p>
-      <p>And because a day this large, this fast, this impossible to repeat, is too much for any one person to hold, it is never carried by one. The whole studio stands behind you, the people who shape the day, the ones who capture it, the hands that craft it after, each devoted to their part, all paying attention at once. Through all of it, the day stays yours. The truest images come from a room that has forgotten anyone is there, so we move quietly, stay out of the way, and let your wedding be exactly what it is.</p>
-      <p>And a wedding is not where our part ends. It is where it begins. The album finished together in our showroom. A first child, and the day they are welcomed. The milestones that follow, the celebrations that gather everyone in one room again, the ordinary afternoons that turn out to matter most. Couples come to us for a wedding and stay with us for a life. Year after year, we become the studio that holds a family's whole story, until we are no longer the people you hired, but something closer to family and friends. And if we are not part of your family yet, in time, we will be.</p>
-      <p>That is the real philosophy. Not a single day, but a lifetime of them, kept in the same hands.</p>
+      <div class="prose" style="margin-top:1.4rem">
+        <p>Ask most people about their wedding and they will not describe a photograph. They will describe a feeling. The hush before the doors opened. The face they searched for in the crowd. The exact moment the room tipped from ceremony into celebration. A wedding does not live in its images. It lives in what those images bring back.</p>
+        <p>Understanding that is the whole of how we work. Often we already know the faces and the history, because we have been part of it before. We met at the engagement walk. We were there for your cousin's wedding, your sister's, the celebrations your family has trusted us with for years. So by the time your day arrives, we are not strangers reading a crowd.</p>
+        <p>And because a day this large, this fast, this impossible to repeat, is too much for any one person to hold, it is never carried by one. The whole studio stands behind you, the people who shape the day, the ones who capture it, the hands that craft it after, each devoted to their part, all paying attention at once. Through all of it, the day stays yours. The truest images come from a room that has forgotten anyone is there, so we move quietly, stay out of the way, and let your wedding be exactly what it is.</p>
+        <p>And a wedding is not where our part ends. It is where it begins. The album finished together in our showroom. A first child, and the day they are welcomed. The milestones that follow, the celebrations that gather everyone in one room again, the ordinary afternoons that turn out to matter most. Couples come to us for a wedding and stay with us for a life. Year after year, we become the studio that holds a family's whole story, until we are no longer the people you hired, but something closer to family and friends. And if we are not part of your family yet, in time, we will be.</p>
+        <p>That is the real philosophy. Not a single day, but a lifetime of them, kept in the same hands.</p>
+      </div>
     </div>
   </div>
 </section>
-<section class="section">
-  <div class="wrap">
-    <div class="reveal" style="max-width:38rem;margin-bottom:2.2rem">
+
+<section class="section section-warm">
+  <div class="spread">
+    <div class="spread-text reveal">
       <span class="kicker">Our studio</span>
       <h2>What began with one camera became a company.</h2>
-      <p class="lede">Every studio starts somewhere. Ours started with one camera and the conviction that a day like this deserved far more care than it was getting.</p>
+      <div class="prose" style="margin-top:1.4rem">
+        <p>Every studio starts somewhere. Ours started with one camera and the conviction that a day like this deserved far more care than it was getting.</p>
+        <p>That conviction grew into something specific. Think of walking into a great luxury house, the hush of it, the sense that the whole room has been arranged around you, that everyone who steps forward is a master of their one thing and is there only to take care of you. We wanted a wedding with us to feel exactly like that. So we built it, deliberately, over years.</p>
+        <p>Today the studio is full of artists. Photographers who have spent their lives learning to see. Cinematographers who shape light and motion like a film set. Editors who live inside color and rhythm, designers who craft albums by hand, planners who hold every detail in place. Each has given themselves entirely to a single craft, and each brings that mastery to your day.</p>
+      </div>
     </div>
-    <div class="prose reveal">
-      <p>That conviction grew into something specific. Think of walking into a great luxury house, the hush of it, the sense that the whole room has been arranged around you, that everyone who steps forward is a master of their one thing and is there only to take care of you. We wanted a wedding with us to feel exactly like that. So we built it, deliberately, over years.</p>
-      <p>Today the studio is full of artists. Photographers who have spent their lives learning to see. Cinematographers who shape light and motion like a film set. Editors who live inside color and rhythm, designers who craft albums by hand, planners who hold every detail in place. Each has given themselves entirely to a single craft, and each brings that mastery to your day.</p>
-    </div>
+    <figure class="reveal d2">
+      <img src="bkp-09.webp" width="1200" height="1800" alt="A bride standing in a hotel room as her family helps with the gown, one kneeling at the hem">
+    </figure>
   </div>
 </section>
-<section class="section" style="background:var(--bg-warm)">
+
+<section class="section">
   <div class="wrap">
-    <div class="reveal" style="margin-bottom:2rem">
+    <div class="reveal" style="max-width:36rem;margin-bottom:2.6rem">
       <span class="kicker">The departments</span>
       <h2>A studio runs on its parts.</h2>
       <p class="lede">Each of ours is its own department, run by people who do that one thing and nothing else.</p>
     </div>
-    <div class="depts">
-      <article class="dept reveal"><h3>Booking</h3><p>From choosing your collection to floral and venue consultations, your booking team guides you from the start. As the day approaches, they finalize every detail and build your photography schedule, so everything runs clean long before anyone lifts a camera.</p></article>
-      <article class="dept reveal"><h3>Client care</h3><p>There is always someone to reach. Your questions, your feedback, and any revisions are handled by people whose only job is making sure you are looked after at every stage.</p></article>
-      <article class="dept reveal"><h3>Photographers</h3><p>The artists who shoot your day, led by people who have spent their lives behind a camera. They learn your names, stay close, and cover the room so completely that nothing is ever missed.</p></article>
-      <article class="dept reveal"><h3>Cinematographers</h3><p>Your wedding, made into cinema. A full film team works your day with its own directors, its own cameras, and its own vision, capturing the story as it unfolds and shaping it into something with the weight and feeling of a film.</p></article>
-      <article class="dept reveal"><h3>Editing</h3><p>Every photograph and film is edited in house, by the same people who shape the studio's look. A teaser while the day is still fresh, the full gallery and film in the weeks that follow, but nothing is ever rushed. Each frame is finished by hand, to one standard.</p></article>
-      <article class="dept reveal"><h3>Albums</h3><p>Hand the day to a designer who builds it into a story. Choose every image yourself, or let us select from the full of your wedding and shape it for you, spread by spread, into an album designed by hand, built to be passed down.</p></article>
+    <div class="depts reveal">
+      <article class="dept">
+        <h3>Booking</h3>
+        <p>From choosing your collection to floral and venue consultations, your booking team guides you from the start. As the day approaches, they finalize every detail and build your photography schedule, so everything runs clean long before anyone lifts a camera.</p>
+      </article>
+      <article class="dept">
+        <h3>Client care</h3>
+        <p>There is always someone to reach. Your questions, your feedback, and any revisions are handled by people whose only job is making sure you are looked after at every stage.</p>
+      </article>
+      <article class="dept">
+        <h3>Photographers</h3>
+        <p>The artists who shoot your day, led by people who have spent their lives behind a camera. They learn your names, stay close, and cover the room so completely that nothing is ever missed.</p>
+      </article>
+      <article class="dept">
+        <h3>Cinematographers</h3>
+        <p>Your wedding, made into cinema. A full film team works your day with its own directors, its own cameras, and its own vision, capturing the story as it unfolds and shaping it into something with the weight and feeling of a film.</p>
+      </article>
+      <article class="dept">
+        <h3>Editing</h3>
+        <p>Every photograph and film is edited in house, by the same people who shape the studio's look. A teaser while the day is still fresh, the full gallery and film in the weeks that follow, but nothing is ever rushed. Each frame is finished by hand, to one standard.</p>
+      </article>
+      <article class="dept">
+        <h3>Albums</h3>
+        <p>Hand the day to a designer who builds it into a story. Choose every image yourself, or let us select from the full of your wedding and shape it for you, spread by spread, into an album designed by hand, built to be passed down.</p>
+      </article>
     </div>
   </div>
 </section>
+
 <section class="section">
   <div class="wrap">
-    <div class="reveal" style="max-width:40rem;margin-bottom:1.5rem">
+    <div class="reveal" style="max-width:36rem;margin-bottom:2.8rem">
       <span class="kicker">The team</span>
       <h2>The people who lead our departments</h2>
-      <p class="lede">Roles and descriptions are taken from the studio catalog. Individual names will be added once confirmed.</p>
+      <p class="lede">Roles and descriptions are taken from the studio catalog. Individual names will be added once they are confirmed.</p>
     </div>
-    <div class="depts">
-      <article class="dept reveal"><h3>Founder &amp; Creative Director</h3><p>Our founder spent close to two decades building luxury events, growing a single vision into an international wedding studio. They set the creative direction of every department and keep us ahead of where the work is going, so the name on the door always means the same thing.</p></article>
-      <article class="dept reveal"><h3>Lead Photographer</h3><p>Our lead photographer comes from a family with generations in the craft, and shapes how the whole studio sees. They hold our photographers to one standard and run the floor on a wedding day, so the room is always covered and no moment is ever missed.</p></article>
-      <article class="dept reveal"><h3>Lead Cinematographer</h3><p>Our lead cinematographer helped build the studio from its first days, and has filmed weddings around the world. They lead every cinematographer we send and capture your day the way a film is made, not the way a wedding is recorded.</p></article>
-      <article class="dept reveal"><h3>Head of Photo Editing</h3><p>Our head of photo editing runs speed and precision as a craft, leading a team that works around the clock so your gallery comes back fast and fully finished. Every frame is held to the same standard, nothing rushed and nothing lost.</p></article>
-      <article class="dept reveal"><h3>Head of Cinematic Edits</h3><p>Our head of cinematic edits came from high-end production, where cutting and color are taken to a level most studios never reach. They lead the editors who shape your film frame by frame, every cut and every grade made under one exacting eye.</p></article>
-      <article class="dept reveal"><h3>Head of Album Design</h3><p>Every album we make is built by hand, and our head of album design guides it. They sit with you directly, learn the shape of your day, and shape an album that tells your story rather than simply holding your photographs.</p></article>
-      <article class="dept reveal"><h3>Client Relations</h3><p>Our client relations lead comes from fashion and luxury goods, fluent in style, taste, and where the trends move before they arrive. They are your way into the studio, helping you find the collection built for your day. Your relationship with us begins here.</p></article>
-      <article class="dept reveal"><h3>Studio Manager</h3><p>Our studio manager runs everything behind the scenes, the contracts, the schedules, the galleries, every moving part kept on time without you ever having to chase it. The day feels effortless to you because they carry the weight of making it so.</p></article>
+    <div class="team">
+      <article class="reveal">
+        <h3>Founder &amp; Creative Director</h3>
+        <p>Our founder spent close to two decades building luxury events, growing a single vision into an international wedding studio. They set the creative direction of every department and keep us ahead of where the work is going, so the name on the door always means the same thing.</p>
+      </article>
+      <article class="reveal d1">
+        <h3>Lead Photographer</h3>
+        <p>Our lead photographer comes from a family with generations in the craft, and shapes how the whole studio sees. They hold our photographers to one standard and run the floor on a wedding day, so the room is always covered and no moment is ever missed.</p>
+      </article>
+      <article class="reveal">
+        <h3>Lead Cinematographer</h3>
+        <p>Our lead cinematographer helped build the studio from its first days, and has filmed weddings around the world. They lead every cinematographer we send and capture your day the way a film is made, not the way a wedding is recorded.</p>
+      </article>
+      <article class="reveal d1">
+        <h3>Head of Photo Editing</h3>
+        <p>Our head of photo editing runs speed and precision as a craft, leading a team that works around the clock so your gallery comes back fast and fully finished. Every frame is held to the same standard, nothing rushed and nothing lost.</p>
+      </article>
+      <article class="reveal">
+        <h3>Head of Cinematic Edits</h3>
+        <p>Our head of cinematic edits came from high-end production, where cutting and color are taken to a level most studios never reach. They lead the editors who shape your film frame by frame, every cut and every grade made under one exacting eye.</p>
+      </article>
+      <article class="reveal d1">
+        <h3>Head of Album Design</h3>
+        <p>Every album we make is built by hand, and our head of album design guides it. They sit with you directly, learn the shape of your day, and shape an album that tells your story rather than simply holding your photographs.</p>
+      </article>
+      <article class="reveal">
+        <h3>Client Relations</h3>
+        <p>Our client relations lead comes from fashion and luxury goods, fluent in style, taste, and where the trends move before they arrive. They are your way into the studio, helping you find the collection built for your day. Your relationship with us begins here.</p>
+      </article>
+      <article class="reveal d1">
+        <h3>Studio Manager</h3>
+        <p>Our studio manager runs everything behind the scenes, the contracts, the schedules, the galleries, every moving part kept on time without you ever having to chase it. The day feels effortless to you because they carry the weight of making it so.</p>
+      </article>
     </div>
-    <p class="reveal" style="margin-top:1.2rem;font-size:1rem;color:var(--stone-dark)">[Team names from Alex catalog — the catalog describes each role but does not print individual names.]</p>
+    <p class="note reveal">Individual names will be published once they are confirmed.</p>
   </div>
 </section>
 
@@ -121,10 +207,10 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a class="logo" href="index.html">
-        <span class="logo-script">Benjamin Korn</span>
-        <span class="logo-sub">Studio</span>
-      </a>
+      <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
+    </a>
       <p>A team-run studio for the modern wedding. Long Island &amp; worldwide.</p>
     </div>
     <div>
@@ -151,6 +237,13 @@
     <span>The Wedding Edit</span>
   </div>
 </footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button">Close</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">‹</button>
+  <img src="" alt="">
+  <button class="lb-nav lb-next" type="button" aria-label="Next">›</button>
+  <p class="lb-cap"></p>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

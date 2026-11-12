@@ -4,75 +4,96 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact — Benjamin Korn Studio</title>
-  <meta name="description" content="Visit the Benjamin Korn Studio showroom at 406 Central Avenue, Cedarhurst, Long Island, or write to info@benjaminkornstudio.com.">
+  <meta name="description" content="Visit the Benjamin Korn Studio showroom at 406 Central Avenue, Cedarhurst, Long Island. 347.404.4109.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
-<header class="site-header">
+<header class="site-header is-solid">
   <div class="header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-script">Benjamin Korn</span>
-      <span class="logo-sub">Studio</span>
+    <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav>
-        <a href="about.html">The Studio</a>
-        <a href="experience.html">Experience</a>
-        <a href="photography.html">Photography</a>
-        <a href="cinematography.html">Film</a>
-        <a href="albums.html">Albums</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html" aria-current="page">Contact</a>
-    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
   </div>
 </header>
+<div class="menu-overlay" id="site-menu" role="dialog" aria-label="Site menu">
+  <div class="menu-left">
+    <nav>
+      <ul class="menu-links">
+        <li><a href="index.html" data-img="index.html"><span class="num">01</span>Home</a></li>
+        <li><a href="about.html" data-img="about.html"><span class="num">02</span>The Studio</a></li>
+        <li><a href="experience.html" data-img="experience.html"><span class="num">03</span>Experience</a></li>
+        <li><a href="photography.html" data-img="photography.html"><span class="num">04</span>Photography</a></li>
+        <li><a href="cinematography.html" data-img="cinematography.html"><span class="num">05</span>Film</a></li>
+        <li><a href="albums.html" data-img="albums.html"><span class="num">06</span>Albums</a></li>
+        <li><a href="catalog.html" data-img="catalog.html"><span class="num">07</span>Catalog</a></li>
+        <li><a href="faqs.html" data-img="faqs.html"><span class="num">08</span>FAQs</a></li>
+        <li><a href="contact.html" data-img="contact.html" aria-current="page"><span class="num">09</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-right">
+      <img src="px-18253474887.webp" data-img="index.html" class="" style="object-position:center 32%" alt="" width="800" height="1200">
+      <img src="px-18253474876.webp" data-img="about.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253474880.webp" data-img="experience.html" class="" style="object-position:center 48%" alt="" width="800" height="1200">
+      <img src="px-18253479932.webp" data-img="photography.html" class="" style="object-position:center 72%" alt="" width="800" height="1200">
+      <img src="px-18253475005.webp" data-img="cinematography.html" class="" style="object-position:center 55%" alt="" width="800" height="1200">
+      <img src="photo-116.webp" data-img="albums.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+      <img src="spread-01.webp" data-img="catalog.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253479854.webp" data-img="faqs.html" class="" style="object-position:center 38%" alt="" width="800" height="1200">
+      <img src="photo-124.webp" data-img="contact.html" class="is-on" style="object-position:center 50%" alt="" width="800" height="1200">
+    <div class="menu-meta">
+      406 Central Avenue, Cedarhurst, Long Island<br>
+      <a href="tel:+13474044109">347.404.4109</a> &nbsp;·&nbsp; <a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a>
+    </div>
+  </div>
+</div>
 <main>
 
-<section class="section-tight">
-  <div class="wrap reveal" style="max-width:40rem">
-    <span class="kicker">Contact</span>
-    <h1>Visit our showroom</h1>
-    <p class="lede">Work with our team to build your perfect collection, design your album, or sit for portraits by appointment.</p>
-  </div>
-</section>
-<section class="section-tight">
-  <div class="wrap contact-grid">
-    <div class="contact-block reveal">
-      <h3>The showroom</h3>
-      <p>406 Central Avenue</p>
-      <p>Cedarhurst, Long Island, NY 11516</p>
-      <p style="margin-top:1rem">Monday–Thursday: 10:00–5:00</p>
-      <p>Friday &amp; Sunday: By appointment only</p>
-    </div>
-    <div class="contact-block reveal">
-      <h3>Reach us</h3>
-      <p><a href="tel:+13474044109">347.404.4109</a></p>
-      <p><a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a></p>
-      <p><a href="https://www.instagram.com/benjaminkornstudio/">@benjaminkornstudio</a></p>
-      <p style="margin-top:1.2rem">BenjaminKornStudio.com</p>
+<header class="page-mast plain">
+  <div class="page-mast-grid reveal">
+    <div>
+      <span class="kicker">Contact</span>
+      <h1>Visit our showroom</h1>
+      <p class="lede">Work with our team to build your perfect collection, design your album, or sit for portraits by appointment.</p>
     </div>
   </div>
-</section>
-<section class="section">
-  <div class="wrap">
-    <figure class="frame reveal" style="max-width:48rem">
-      <img src="photo-124.jpg" width="533" height="800" alt="The Benjamin Korn Studio storefront at 406 Central Avenue">
-    </figure>
+</header>
+
+<section class="contact-layout">
+  <div class="contact-card reveal">
+    <h3>The showroom</h3>
+    <p>406 Central Avenue</p>
+    <p>Cedarhurst, Long Island, NY 11516</p>
+    <p>Monday–Thursday: 10:00–5:00</p>
+    <p>Friday &amp; Sunday: By appointment only</p>
+    <h3>Reach us</h3>
+    <p><a href="tel:+13474044109">347.404.4109</a></p>
+    <p><a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a></p>
+    <p><a href="https://www.instagram.com/benjaminkornstudio/">@benjaminkornstudio</a></p>
+    <p>BenjaminKornStudio.com</p>
   </div>
+  <figure class="contact-fig reveal d1">
+    <img src="photo-124.webp" width="532" height="799" alt="The Benjamin Korn Studio storefront at 406 Central Avenue, the name in script above the door">
+  </figure>
 </section>
 
 </main>
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a class="logo" href="index.html">
-        <span class="logo-script">Benjamin Korn</span>
-        <span class="logo-sub">Studio</span>
-      </a>
+      <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
+    </a>
       <p>A team-run studio for the modern wedding. Long Island &amp; worldwide.</p>
     </div>
     <div>
@@ -99,6 +120,13 @@
     <span>The Wedding Edit</span>
   </div>
 </footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button">Close</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">‹</button>
+  <img src="" alt="">
+  <button class="lb-nav lb-next" type="button" aria-label="Next">›</button>
+  <p class="lb-cap"></p>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

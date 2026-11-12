@@ -4,52 +4,113 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Catalog — Benjamin Korn Studio</title>
-  <meta name="description" content="The Wedding Edit, the Benjamin Korn Studio catalog of services, offerings, and artistry.">
+  <meta name="description" content="The Wedding Edit, the printed catalog of Benjamin Korn Studio. Philosophy, details, albums, and team.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
-<header class="site-header">
+<header class="site-header is-solid">
   <div class="header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-script">Benjamin Korn</span>
-      <span class="logo-sub">Studio</span>
+    <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav>
-        <a href="about.html">The Studio</a>
-        <a href="experience.html">Experience</a>
-        <a href="photography.html">Photography</a>
-        <a href="cinematography.html">Film</a>
-        <a href="albums.html">Albums</a>
-        <a href="catalog.html" aria-current="page">Catalog</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
   </div>
 </header>
+<div class="menu-overlay" id="site-menu" role="dialog" aria-label="Site menu">
+  <div class="menu-left">
+    <nav>
+      <ul class="menu-links">
+        <li><a href="index.html" data-img="index.html"><span class="num">01</span>Home</a></li>
+        <li><a href="about.html" data-img="about.html"><span class="num">02</span>The Studio</a></li>
+        <li><a href="experience.html" data-img="experience.html"><span class="num">03</span>Experience</a></li>
+        <li><a href="photography.html" data-img="photography.html"><span class="num">04</span>Photography</a></li>
+        <li><a href="cinematography.html" data-img="cinematography.html"><span class="num">05</span>Film</a></li>
+        <li><a href="albums.html" data-img="albums.html"><span class="num">06</span>Albums</a></li>
+        <li><a href="catalog.html" data-img="catalog.html" aria-current="page"><span class="num">07</span>Catalog</a></li>
+        <li><a href="faqs.html" data-img="faqs.html"><span class="num">08</span>FAQs</a></li>
+        <li><a href="contact.html" data-img="contact.html"><span class="num">09</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-right">
+      <img src="px-18253474887.webp" data-img="index.html" class="" style="object-position:center 32%" alt="" width="800" height="1200">
+      <img src="px-18253474876.webp" data-img="about.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253474880.webp" data-img="experience.html" class="" style="object-position:center 48%" alt="" width="800" height="1200">
+      <img src="px-18253479932.webp" data-img="photography.html" class="" style="object-position:center 72%" alt="" width="800" height="1200">
+      <img src="px-18253475005.webp" data-img="cinematography.html" class="" style="object-position:center 55%" alt="" width="800" height="1200">
+      <img src="photo-116.webp" data-img="albums.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+      <img src="spread-01.webp" data-img="catalog.html" class="is-on" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253479854.webp" data-img="faqs.html" class="" style="object-position:center 38%" alt="" width="800" height="1200">
+      <img src="photo-124.webp" data-img="contact.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+    <div class="menu-meta">
+      406 Central Avenue, Cedarhurst, Long Island<br>
+      <a href="tel:+13474044109">347.404.4109</a> &nbsp;·&nbsp; <a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a>
+    </div>
+  </div>
+</div>
 <main>
 
-<section class="section-tight">
-  <div class="wrap reveal" style="max-width:40rem">
-    <span class="kicker">The Wedding Edit</span>
-    <h1>Our catalog</h1>
-    <p class="lede">Explore our services, offerings, and artistry. The full Wedding Edit is a printed catalog — the source for the philosophy, details, albums, and team on this site. Visit the showroom to sit with it, or ask us to share a copy.</p>
-  </div>
-</section>
-<section class="section-tight">
-  <div class="wrap">
-    <div class="spreads">
-      <figure class="reveal"><img src="spread-01.jpg" alt="Cover of The Wedding Edit catalog"><figcaption class="img-caption">Cover</figcaption></figure>
-      <figure class="reveal"><img src="spread-08.jpg" alt="About us catalog page"><figcaption class="img-caption">About us</figcaption></figure>
-      <figure class="reveal"><img src="spread-18.jpg" alt="Wedding day experience catalog page"><figcaption class="img-caption">The wedding day</figcaption></figure>
-      <figure class="reveal"><img src="spread-47.jpg" alt="Cinematography catalog page"><figcaption class="img-caption">Film</figcaption></figure>
-      <figure class="reveal"><img src="spread-59.jpg" alt="Philosophy catalog page"><figcaption class="img-caption">Philosophy</figcaption></figure>
-      <figure class="reveal"><img src="spread-71.jpg" alt="Albums catalog page"><figcaption class="img-caption">Albums</figcaption></figure>
+<header class="page-mast plain">
+  <div class="page-mast-grid reveal">
+    <div>
+      <span class="kicker">The Wedding Edit</span>
+      <h1>Our catalog</h1>
+      <p class="lede">Explore our services, offerings, and artistry. The full Wedding Edit is a printed catalog — the source for the philosophy, details, albums, and team on this site. Visit the showroom to sit with it, or ask us to share a copy.</p>
+      <p style="margin-top:1.8rem"><a class="btn" href="contact.html">Request the catalog</a></p>
     </div>
-    <p class="reveal" style="margin-top:2rem"><a class="btn" href="contact.html">Request the catalog</a></p>
+  </div>
+</header>
+
+<section>
+  <div class="catalog-grid">
+    <figure class="reveal">
+      <img src="spread-01.webp" width="1020" height="1320" alt="Cover of The Wedding Edit catalog">
+      <figcaption>Cover</figcaption>
+    </figure>
+    <figure class="reveal d1">
+      <img src="spread-03.webp" width="1020" height="1320" alt="Contents page of The Wedding Edit">
+      <figcaption>Contents</figcaption>
+    </figure>
+    <figure class="reveal d2">
+      <img src="spread-08.webp" width="1020" height="1320" alt="About us catalog page">
+      <figcaption>About us</figcaption>
+    </figure>
+    <figure class="reveal">
+      <img src="spread-10.webp" width="1020" height="1320" alt="Studio experience catalog page">
+      <figcaption>The studio</figcaption>
+    </figure>
+    <figure class="reveal d1">
+      <img src="spread-18.webp" width="1020" height="1320" alt="Wedding day experience catalog page">
+      <figcaption>The wedding day</figcaption>
+    </figure>
+    <figure class="reveal d2">
+      <img src="spread-33.webp" width="1020" height="1320" alt="Details catalog page">
+      <figcaption>The details</figcaption>
+    </figure>
+    <figure class="reveal">
+      <img src="spread-47.webp" width="1020" height="1320" alt="Cinematography catalog page">
+      <figcaption>Film</figcaption>
+    </figure>
+    <figure class="reveal d1">
+      <img src="spread-59.webp" width="1020" height="1320" alt="Philosophy catalog page">
+      <figcaption>Philosophy</figcaption>
+    </figure>
+    <figure class="reveal">
+      <img src="spread-71.webp" width="1020" height="1320" alt="Albums catalog page">
+      <figcaption>Albums</figcaption>
+    </figure>
+    <figure class="reveal d1">
+      <img src="spread-84.webp" width="1020" height="1320" alt="Back cover of The Wedding Edit, with the studio storefront">
+      <figcaption>The showroom</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -57,10 +118,10 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a class="logo" href="index.html">
-        <span class="logo-script">Benjamin Korn</span>
-        <span class="logo-sub">Studio</span>
-      </a>
+      <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
+    </a>
       <p>A team-run studio for the modern wedding. Long Island &amp; worldwide.</p>
     </div>
     <div>
@@ -87,6 +148,13 @@
     <span>The Wedding Edit</span>
   </div>
 </footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button">Close</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">‹</button>
+  <img src="" alt="">
+  <button class="lb-nav lb-next" type="button" aria-label="Next">›</button>
+  <p class="lb-cap"></p>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

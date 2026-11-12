@@ -4,140 +4,276 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Benjamin Korn Studio</title>
-  <meta name="description" content="A team-run studio for the modern wedding. Long Island and worldwide. Photography, cinematography, and albums by Benjamin Korn Studio.">
+  <meta name="description" content="A team&#8209;run studio for the modern wedding. Long Island and worldwide. Photography, cinematography, and albums by Benjamin Korn Studio.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="hero-01-d.webp" media="(min-width:861px)">
+  <link rel="preload" as="image" href="hero-01-m.webp" media="(max-width:860px)">
 </head>
-<body>
+<body class="home">
 <header class="site-header">
   <div class="header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-script">Benjamin Korn</span>
-      <span class="logo-sub">Studio</span>
+    <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav>
-        <a href="about.html">The Studio</a>
-        <a href="experience.html">Experience</a>
-        <a href="photography.html">Photography</a>
-        <a href="cinematography.html">Film</a>
-        <a href="albums.html">Albums</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
   </div>
 </header>
+<div class="menu-overlay" id="site-menu" role="dialog" aria-label="Site menu">
+  <div class="menu-left">
+    <nav>
+      <ul class="menu-links">
+        <li><a href="index.html" data-img="index.html" aria-current="page"><span class="num">01</span>Home</a></li>
+        <li><a href="about.html" data-img="about.html"><span class="num">02</span>The Studio</a></li>
+        <li><a href="experience.html" data-img="experience.html"><span class="num">03</span>Experience</a></li>
+        <li><a href="photography.html" data-img="photography.html"><span class="num">04</span>Photography</a></li>
+        <li><a href="cinematography.html" data-img="cinematography.html"><span class="num">05</span>Film</a></li>
+        <li><a href="albums.html" data-img="albums.html"><span class="num">06</span>Albums</a></li>
+        <li><a href="catalog.html" data-img="catalog.html"><span class="num">07</span>Catalog</a></li>
+        <li><a href="faqs.html" data-img="faqs.html"><span class="num">08</span>FAQs</a></li>
+        <li><a href="contact.html" data-img="contact.html"><span class="num">09</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-right">
+      <img src="px-18253474887.webp" data-img="index.html" class="is-on" style="object-position:center 32%" alt="" width="800" height="1200">
+      <img src="px-18253474876.webp" data-img="about.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253474880.webp" data-img="experience.html" class="" style="object-position:center 48%" alt="" width="800" height="1200">
+      <img src="px-18253479932.webp" data-img="photography.html" class="" style="object-position:center 72%" alt="" width="800" height="1200">
+      <img src="px-18253475005.webp" data-img="cinematography.html" class="" style="object-position:center 55%" alt="" width="800" height="1200">
+      <img src="photo-116.webp" data-img="albums.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+      <img src="spread-01.webp" data-img="catalog.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253479854.webp" data-img="faqs.html" class="" style="object-position:center 38%" alt="" width="800" height="1200">
+      <img src="photo-124.webp" data-img="contact.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+    <div class="menu-meta">
+      406 Central Avenue, Cedarhurst, Long Island<br>
+      <a href="tel:+13474044109">347.404.4109</a> &nbsp;·&nbsp; <a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a>
+    </div>
+  </div>
+</div>
 <main>
 
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div class="reveal">
+<section class="hero" aria-label="Featured photographs">
+  <div class="hero-stage">
+    <picture class="hero-slide is-active">
+      <source media="(max-width:860px)" srcset="hero-01-m.webp" type="image/webp">
+      <img src="hero-01-d.webp" width="1067" height="601" alt="A couple close together beneath a chandelier, her eyes closed as he kisses her forehead">
+    </picture>
+    <picture class="hero-slide">
+      <source media="(max-width:860px)" srcset="hero-02-m.webp" type="image/webp">
+      <img src="hero-02-d.webp" width="1800" height="1013" alt="A couple walking along a terrace, her long veil trailing behind them">
+    </picture>
+    <picture class="hero-slide">
+      <source media="(max-width:860px)" srcset="hero-03-m.webp" type="image/webp">
+      <img src="hero-03-d.webp" width="1067" height="601" alt="A bride seated in a formal room, holding a large bouquet of white flowers">
+    </picture>
+    <picture class="hero-slide">
+      <source media="(max-width:860px)" srcset="hero-04-m.webp" type="image/webp">
+      <img src="hero-04-d.webp" width="1067" height="601" alt="A couple sharing a kiss on a candlelit staircase wound with white flowers">
+    </picture>
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <div>
       <span class="kicker">The Wedding Edit</span>
-      <h1>A team-run studio for the modern wedding.</h1>
+      <p class="hero-title">A team&#8209;run studio for the modern wedding.</p>
+    </div>
+    <div>
+      <p class="hero-meta">Long Island &amp; worldwide</p>
+      <a class="scroll-hint" href="#intro"><span>Scroll</span><span class="line" aria-hidden="true"></span></a>
+    </div>
+  </div>
+</section>
+
+<section class="intro" id="intro">
+  <p class="spine">The Wedding Edit &nbsp;—&nbsp; Long Island &nbsp;—&nbsp; Worldwide</p>
+  <div class="intro-grid">
+    <div class="intro-type reveal">
+      <span class="kicker">Benjamin Korn Studio</span>
+      <h1 class="display-xl">
+        <span>A team&#8209;run</span>
+        <span class="indent it">studio</span>
+        <span>for the modern</span>
+        <span class="indent it">wedding.</span>
+      </h1>
       <p class="lede">Not one person with a camera, but a house of departments, each devoted to a single part of the day: booking, photography, cinematography, editing, and album design.</p>
       <p class="tag">Long Island &amp; worldwide</p>
-      <p style="margin-top:1.6rem"><a class="btn" href="experience.html">The experience</a></p>
+      <p style="margin-top:2rem"><a class="text-link" href="experience.html">The experience <span class="arr">→</span></a></p>
     </div>
-    <figure class="frame frame-calm reveal">
-      <img src="px-18253479854.webp" width="1067" height="1600" alt="A bride in a white gown, photographed in a sunlit room">
+    <figure class="intro-fig reveal d2">
+      <img src="px-18253474876.webp" width="1067" height="1600" alt="A couple standing together on a candlelit staircase, her gown in ivory silk, a red carpet at their feet">
     </figure>
   </div>
 </section>
 
-<div class="style-row wrap reveal">
-  <span>Luxurious</span><span>Editorial</span><span>Stylish</span><span>Timeless</span><span>Elegant</span><span>Classy</span>
-</div>
+<section class="film-section">
+  <div class="film-head">
+    <span class="kicker">Selected work</span>
+    <span class="film-cue">Scroll sideways →</span>
+  </div>
+  <div class="filmstrip" tabindex="0">
+    <figure class="is-tall">
+      <img src="px-18253474920.webp" width="1067" height="1600" alt="A couple in cream and ivory leaning against a vintage car, the wedding party around them">
+      <figcaption>The wedding party</figcaption>
+    </figure>
+    <figure>
+      <img src="bkp-22.webp" width="1253" height="1800" alt="A couple kissing on a pale stone staircase, the train of her lace gown falling down the steps">
+      <figcaption>The staircase</figcaption>
+    </figure>
+    <figure class="is-short">
+      <img src="px-18253479913.webp" width="1600" height="1067" alt="A pair of pale embroidered shoes resting in the grass">
+      <figcaption>The details</figcaption>
+    </figure>
+    <figure>
+      <img src="px-18253479842.webp" width="1600" height="1067" alt="A French-style chateau under a pale sky, photographed on the wedding day">
+      <figcaption>The house</figcaption>
+    </figure>
+    <figure class="is-tall">
+      <img src="px-20918813502.webp" width="1067" height="1600" alt="A couple in motion, photographed as a black-and-white blur of a dance">
+      <figcaption>In motion</figcaption>
+    </figure>
+    <figure>
+      <img src="bkp-21.webp" width="1200" height="1800" alt="A close portrait of a couple, her veil around them, water and sky behind">
+      <figcaption>A portrait</figcaption>
+    </figure>
+    <figure>
+      <img src="bkp-19.webp" width="1800" height="1200" alt="A couple kissing beneath a dense arch of pink and white flowers, Hebrew text on a ribbon above them">
+      <figcaption>Under the chuppah</figcaption>
+    </figure>
+    <figure>
+      <img src="px-18253474922.webp" width="1067" height="1600" alt="A couple walking hand in hand through a courtyard, he in a cream dinner jacket, she in an off-shoulder gown">
+      <figcaption>The walk</figcaption>
+    </figure>
+    <figure class="is-short">
+      <img src="bkp-20.webp" width="1800" height="1200" alt="A couple looking out from the window of a vintage car">
+      <figcaption>The car</figcaption>
+    </figure>
+    <figure>
+      <img src="bkp-23.webp" width="1200" height="1800" alt="A couple almost kissing, photographed in warm night light, their faces close in silhouette">
+      <figcaption>Night</figcaption>
+    </figure>
+  </div>
+</section>
 
 <section class="section">
-  <div class="wrap split">
-    <figure class="frame frame-calm frame-low reveal">
-      <img src="px-18253479932.webp" width="1067" height="1600" alt="A couple walking a formal garden path">
-    </figure>
-    <div class="split-text reveal">
+  <div class="spread is-offset">
+    <div class="overlap-stack reveal">
+      <figure>
+        <img src="px-18253479932.webp" width="1067" height="1600" alt="A couple walking a formal garden path, her dress caught in the wind, clipped hedges stretching behind them">
+      </figure>
+      <figure class="front">
+        <img src="px-18253474880.webp" width="1067" height="1600" alt="A couple sharing a kiss on a candlelit staircase">
+      </figure>
+    </div>
+    <div class="spread-text reveal d2">
       <span class="kicker">About us</span>
       <h2>A studio in the truest sense.</h2>
-      <div class="prose">
+      <div class="prose" style="margin-top:1.4rem">
         <p>It works like this. While one photographer stands above the room holding the whole scene in frame, the light, the crowd, the feeling of the night, someone is always close by to catch a father's face as he watches his daughter dance. And it goes on this way all day. The vows and the hand that reaches to wipe a tear. The toast and the table laughing at it. The dress before it is worn and the look on a mother's face when she sees it. Nothing falls to a single pair of eyes, and nothing is missed.</p>
         <p>The timeline is built with the planner before the day begins. The celebration and the quiet moments around it are captured together, freely and unprompted, so the day can be lived rather than managed.</p>
       </div>
-      <p style="margin-top:1.4rem"><a class="btn btn-ghost" href="about.html">Our philosophy</a></p>
+      <p style="margin-top:1.6rem"><a class="text-link" href="about.html">Our philosophy <span class="arr">→</span></a></p>
     </div>
   </div>
 </section>
 
-<section class="section" style="background:var(--bg-warm)">
-  <div class="wrap">
-    <div class="reveal" style="max-width:36rem;margin-bottom:2.5rem">
-      <span class="kicker">The studio experience</span>
-      <h2>How your day comes together when an entire studio is behind it.</h2>
-    </div>
-    <div class="steps">
-      <article class="step reveal">
-        <h3>It starts with a plan.</h3>
-        <p>Before your wedding, our booking team builds your photography timeline hand in hand with your planner, so every hour is accounted for before it arrives.</p>
-      </article>
-      <article class="step reveal">
-        <h3>The room, covered at once.</h3>
-        <p>Our team is positioned so the action and the quiet moments around it are captured together, nothing waiting on a single pair of eyes.</p>
-      </article>
-      <article class="step reveal">
-        <h3>In your hands right away.</h3>
-        <p>A first teaser reaches you within a day of your wedding, with your full collection following in the weeks after, edited entirely in house by the people who know your day.</p>
-      </article>
-    </div>
-    <p class="reveal" style="margin-top:2.2rem"><a class="btn" href="experience.html">From morning to the last song</a></p>
+<section class="section section-warm">
+  <div class="wrap reveal" style="margin-bottom:3rem;max-width:40rem">
+    <span class="kicker">The studio experience</span>
+    <h2>How your day comes together when an entire studio is behind it.</h2>
+  </div>
+  <div class="steps-ed">
+    <article class="step-ed reveal">
+      <figure>
+        <img src="bkp-11.webp" width="1200" height="1800" alt="Bridesmaids gathered in a softly lit room, helping a bride into her gown">
+      </figure>
+      <span class="n">01</span>
+      <h3>It starts with a plan.</h3>
+      <p>Before your wedding, our booking team builds your photography timeline hand in hand with your planner, so every hour is accounted for before it arrives.</p>
+    </article>
+    <article class="step-ed reveal d1">
+      <figure>
+        <img src="bkp-08.webp" width="1200" height="1800" alt="A bride in her gown, photographed by the studio team, two cameras raised toward her">
+      </figure>
+      <span class="n">02</span>
+      <h3>The room, covered at once.</h3>
+      <p>Our team is positioned so the action and the quiet moments around it are captured together, nothing waiting on a single pair of eyes.</p>
+    </article>
+    <article class="step-ed reveal d2">
+      <figure>
+        <img src="photo-116.webp" width="533" height="800" alt="A handcrafted wedding album standing on its edge">
+      </figure>
+      <span class="n">03</span>
+      <h3>In your hands right away.</h3>
+      <p>A first teaser reaches you within a day of your wedding, with your full collection following in the weeks after, edited entirely in house by the people who know your day.</p>
+    </article>
+  </div>
+  <div class="wrap reveal" style="margin-top:3rem">
+    <a class="text-link" href="experience.html">From morning to the last song <span class="arr">→</span></a>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap">
-    <div class="reveal" style="text-align:center;max-width:34rem;margin:0 auto 2.5rem">
-      <span class="kicker">Photography, film, albums</span>
-      <h2>Two crafts, one team.</h2>
-      <p class="lede" style="margin:1rem auto 0">Photography and cinematography, made side by side. The photographs are how you will remember the day. The film is how you will relive it. And when the time comes, a designer shapes an album page by page.</p>
-    </div>
-    <div class="trio">
-      <figure class="frame reveal">
-        <img src="px-18253474920.webp" width="1067" height="1600" alt="A couple with their wedding party and a vintage car">
-        <figcaption class="img-caption"><a href="photography.html">Photography</a></figcaption>
-      </figure>
-      <figure class="frame reveal">
-        <img src="px-20918813502.webp" width="1067" height="1600" alt="A couple in motion, photographed for film">
-        <figcaption class="img-caption"><a href="cinematography.html">Film</a></figcaption>
-      </figure>
-      <figure class="frame reveal">
-        <img src="photo-29.jpg" width="800" height="533" alt="Handcrafted wedding albums">
-        <figcaption class="img-caption"><a href="albums.html">Albums</a></figcaption>
-      </figure>
-    </div>
+  <div class="wrap reveal" style="max-width:38rem;margin-bottom:3.2rem">
+    <span class="kicker">Photography, film, albums</span>
+    <h2>Two crafts, one team.</h2>
+    <p class="lede">Photography and cinematography, made side by side. The photographs are how you will remember the day. The film is how you will relive it. And when the time comes, a designer shapes an album page by page.</p>
+  </div>
+  <div class="crafts">
+    <a class="craft reveal" href="photography.html">
+      <div class="frame">
+        <img src="px-18253474915.webp" width="1067" height="1600" alt="The wedding party gathered with a vintage car before a stone chateau">
+      </div>
+      <p class="img-caption"><strong>Photography</strong><span>The day, still</span></p>
+    </a>
+    <a class="craft reveal d1" href="cinematography.html">
+      <div class="frame">
+        <img src="px-20918813502.webp" width="1067" height="1600" alt="A couple dancing, photographed in motion">
+      </div>
+      <p class="img-caption"><strong>Film</strong><span>The day, in motion</span></p>
+    </a>
+    <a class="craft reveal d2" href="albums.html">
+      <div class="frame">
+        <img src="photo-117.webp" width="533" height="800" alt="A stack of handcrafted albums in pale and deep covers">
+      </div>
+      <p class="img-caption"><strong>Albums</strong><span>The day, in your hands</span></p>
+    </a>
   </div>
 </section>
 
-<section class="section-tight">
-  <div class="wrap split">
-    <div class="split-text reveal">
+<section class="philosophy">
+  <div class="philosophy-grid">
+    <div class="reveal">
       <span class="kicker">Our philosophy</span>
-      <h2>A wedding does not live in its images. It lives in what those images bring back.</h2>
-      <div class="prose">
+      <h2 class="display-xl">A wedding does not live in its images. <span class="it" style="display:block;font-style:italic">It lives in what those images bring back.</span></h2>
+      <div class="prose" style="margin-top:1.8rem">
         <p>Ask most people about their wedding and they will not describe a photograph. They will describe a feeling. The hush before the doors opened. The face they searched for in the crowd. The exact moment the room tipped from ceremony into celebration.</p>
         <p>That is the real philosophy. Not a single day, but a lifetime of them, kept in the same hands.</p>
       </div>
     </div>
-    <figure class="frame frame-calm reveal">
-      <img src="px-18253480000.webp" width="1067" height="1600" alt="A couple seated on a formal garden lawn">
+    <figure class="reveal d2">
+      <img src="px-18253480000.webp" width="1067" height="1600" alt="A couple seated together on a formal garden lawn, photographed from above, the clipped hedges and paths stretching around them">
     </figure>
   </div>
 </section>
 
-<section class="section" style="text-align:center">
-  <div class="wrap reveal" style="max-width:36rem;margin:0 auto">
-    <span class="kicker">The showroom</span>
-    <h2>Come sit with us.</h2>
-    <p class="lede" style="margin:1rem auto 1.6rem">Work with our team to build your collection, design your album, or sit for portraits by appointment. 406 Central Avenue, Cedarhurst, Long Island.</p>
-    <a class="btn" href="contact.html">Visit the showroom</a>
+<section class="section-tight" style="padding-bottom:7rem;text-align:left">
+  <div class="spread">
+    <figure class="reveal">
+      <img src="photo-114.webp" width="533" height="800" alt="The Benjamin Korn Studio showroom, with framed photographs on the walls and albums on the table">
+    </figure>
+    <div class="spread-text reveal d1">
+      <span class="kicker">The showroom</span>
+      <h2>Come sit with us.</h2>
+      <p class="lede">Work with our team to build your collection, design your album, or sit for portraits by appointment. 406 Central Avenue, Cedarhurst, Long Island.</p>
+      <p style="margin-top:1.8rem"><a class="btn" href="contact.html">Visit the showroom</a></p>
+    </div>
   </div>
 </section>
 
@@ -145,11 +281,11 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a class="logo" href="index.html">
-        <span class="logo-script">Benjamin Korn</span>
-        <span class="logo-sub">Studio</span>
-      </a>
-      <p>A team-run studio for the modern wedding. Long Island &amp; worldwide.</p>
+      <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
+    </a>
+      <p>A team&#8209;run studio for the modern wedding. Long Island &amp; worldwide.</p>
     </div>
     <div>
       <h3>Visit</h3>
@@ -175,6 +311,13 @@
     <span>The Wedding Edit</span>
   </div>
 </footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button">Close</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">‹</button>
+  <img src="" alt="">
+  <button class="lb-nav lb-next" type="button" aria-label="Next">›</button>
+  <p class="lb-cap"></p>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

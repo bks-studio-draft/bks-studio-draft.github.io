@@ -4,95 +4,144 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Film — Benjamin Korn Studio</title>
-  <meta name="description" content="Cinematography by Benjamin Korn Studio: highlight films and cinematic feature films, produced rather than recorded.">
+  <meta name="description" content="Cinematography by Benjamin Korn Studio. The photographs are how you will remember the day. The film is how you will relive it.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
-<header class="site-header">
+<header class="site-header is-solid">
   <div class="header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-script">Benjamin Korn</span>
-      <span class="logo-sub">Studio</span>
+    <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav>
-        <a href="about.html">The Studio</a>
-        <a href="experience.html">Experience</a>
-        <a href="photography.html">Photography</a>
-        <a href="cinematography.html" aria-current="page">Film</a>
-        <a href="albums.html">Albums</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
   </div>
 </header>
+<div class="menu-overlay" id="site-menu" role="dialog" aria-label="Site menu">
+  <div class="menu-left">
+    <nav>
+      <ul class="menu-links">
+        <li><a href="index.html" data-img="index.html"><span class="num">01</span>Home</a></li>
+        <li><a href="about.html" data-img="about.html"><span class="num">02</span>The Studio</a></li>
+        <li><a href="experience.html" data-img="experience.html"><span class="num">03</span>Experience</a></li>
+        <li><a href="photography.html" data-img="photography.html"><span class="num">04</span>Photography</a></li>
+        <li><a href="cinematography.html" data-img="cinematography.html" aria-current="page"><span class="num">05</span>Film</a></li>
+        <li><a href="albums.html" data-img="albums.html"><span class="num">06</span>Albums</a></li>
+        <li><a href="catalog.html" data-img="catalog.html"><span class="num">07</span>Catalog</a></li>
+        <li><a href="faqs.html" data-img="faqs.html"><span class="num">08</span>FAQs</a></li>
+        <li><a href="contact.html" data-img="contact.html"><span class="num">09</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-right">
+      <img src="px-18253474887.webp" data-img="index.html" class="" style="object-position:center 32%" alt="" width="800" height="1200">
+      <img src="px-18253474876.webp" data-img="about.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253474880.webp" data-img="experience.html" class="" style="object-position:center 48%" alt="" width="800" height="1200">
+      <img src="px-18253479932.webp" data-img="photography.html" class="" style="object-position:center 72%" alt="" width="800" height="1200">
+      <img src="px-18253475005.webp" data-img="cinematography.html" class="is-on" style="object-position:center 55%" alt="" width="800" height="1200">
+      <img src="photo-116.webp" data-img="albums.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+      <img src="spread-01.webp" data-img="catalog.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253479854.webp" data-img="faqs.html" class="" style="object-position:center 38%" alt="" width="800" height="1200">
+      <img src="photo-124.webp" data-img="contact.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+    <div class="menu-meta">
+      406 Central Avenue, Cedarhurst, Long Island<br>
+      <a href="tel:+13474044109">347.404.4109</a> &nbsp;·&nbsp; <a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a>
+    </div>
+  </div>
+</div>
 <main>
 
-<section class="section-tight">
-  <div class="wrap reveal" style="max-width:42rem">
-    <span class="kicker">Cinematography</span>
-    <h1>The photographs are how you will remember the day. The film is how you will relive it.</h1>
-  </div>
-</section>
-<section class="section-tight">
-  <div class="wrap split">
-    <div class="prose reveal">
-      <p>For most of the last century, a wedding was something you remembered in photographs. A frame on the wall, an album on the shelf, a single still moment held still forever. Those images still matter, and they always will. But something has changed in how we hold on to the people and moments we love.</p>
-      <p>We remember in motion now. The way she laughed, not the laugh frozen but the laugh unfolding. His voice during the vows, the exact pause before the words came. The sound of the room when the music started. A photograph can show you the day. A film can give it back to you.</p>
-      <p>This is why our cinematography is not a service added on beside the photography. It is a craft of its own, with its own team, its own cameras, and its own standard. Our films are produced, not recorded. Shot from many angles, scored, and color graded by hand, so that what you watch years from now carries the full weight of what it felt like to be there.</p>
+<header class="page-mast">
+  <div class="page-mast-grid">
+    <div class="reveal">
+      <span class="kicker">Cinematography</span>
+      <h1>The photographs are how you will remember the day. The film is how you will relive it.</h1>
     </div>
-    <figure class="frame frame-calm reveal">
-      <img src="px-18253475005.webp" width="1067" height="1600" alt="A veiled figure in backlight, photographed like a still from a film">
+    <figure class="page-mast-fig reveal d2">
+      <img src="px-18253475005.webp" width="1067" height="1600" alt="A bride standing in sunlight at an outdoor table, her veil lit from behind">
+    </figure>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="spread">
+    <div class="spread-text reveal">
+      <div class="prose prose-drop">
+        <p>For most of the last century, a wedding was something you remembered in photographs. A frame on the wall, an album on the shelf, a single still moment held still forever. Those images still matter, and they always will. But something has changed in how we hold on to the people and moments we love.</p>
+        <p>We remember in motion now. The way she laughed, not the laugh frozen but the laugh unfolding. His voice during the vows, the exact pause before the words came. The sound of the room when the music started. A photograph can show you the day. A film can give it back to you.</p>
+        <p>This is why our cinematography is not a service added on beside the photography. It is a craft of its own, with its own team, its own cameras, and its own standard. Our films are produced, not recorded. Shot from many angles, scored, and color graded by hand, so that what you watch years from now carries the full weight of what it felt like to be there.</p>
+      </div>
+    </div>
+    <figure class="reveal d2">
+      <img src="px-20918813502.webp" width="1067" height="1600" alt="A couple in motion, photographed as a black-and-white blur of a dance">
     </figure>
   </div>
 </section>
-<section class="section" style="background:var(--bg-warm)">
-  <div class="wrap">
-    <div class="steps">
-      <article class="step reveal">
-        <h3>Quality</h3>
-        <p>Our films tell the story through the moments that actually mattered. The small exchanges no one else noticed. Every frame is chosen with care, graded with intention, and built to feel as alive in ten years as it does the first time it plays.</p>
-      </article>
-      <article class="step reveal">
-        <h3>Edits</h3>
-        <p>The edit is where a film becomes itself. Through color grading and a patient hand in the cut, the day takes on rhythm and feeling. A full cinematic feature, a highlight film, and the short, sharable pieces made for the way you share. One wedding, told in several ways.</p>
-      </article>
-      <article class="step reveal">
-        <h3>Sooner than you expect</h3>
-        <p>The hardest part of a wedding is how quickly it passes, and how long you usually wait to live it again. We close that gap. A first teaser reaches you while the night is still vivid, often within a day. Your full gallery follows in the weeks after, your film soon behind it, each one edited entirely in house.</p>
-      </article>
-    </div>
+
+<section class="section section-warm">
+  <div class="steps-ed">
+    <article class="step-ed reveal">
+      <figure>
+        <img src="bkp-01.webp" width="1800" height="755" alt="A close view of a cinema camera being operated">
+      </figure>
+      <h3>Quality</h3>
+      <p>Our films tell the story through the moments that actually mattered. The small exchanges no one else noticed. Every frame is chosen with care, graded with intention, and built to feel as alive in ten years as it does the first time it plays.</p>
+    </article>
+    <article class="step-ed reveal d1">
+      <figure>
+        <img src="px-18253475003.webp" width="1067" height="1600" alt="A bride seen from behind, her veil against a pale sky">
+      </figure>
+      <h3>Edits</h3>
+      <p>The edit is where a film becomes itself. Through color grading and a patient hand in the cut, the day takes on rhythm and feeling. A full cinematic feature, a highlight film, and the short, sharable pieces made for the way you share. One wedding, told in several ways.</p>
+    </article>
+    <article class="step-ed reveal d2">
+      <figure>
+        <img src="bkp-23.webp" width="1200" height="1800" alt="A couple almost kissing in warm night light">
+      </figure>
+      <h3>Sooner than you expect</h3>
+      <p>The hardest part of a wedding is how quickly it passes, and how long you usually wait to live it again. We close that gap. A first teaser reaches you while the night is still vivid, often within a day. Your full gallery follows in the weeks after, your film soon behind it, each one edited entirely in house.</p>
+    </article>
   </div>
 </section>
-<section class="section">
-  <div class="wrap">
-    <div class="reveal" style="max-width:40rem;margin-bottom:2rem">
+
+<section class="film-dark">
+  <div class="film-dark-grid">
+    <div class="reveal">
       <span class="kicker">Your Hollywood love story</span>
-      <h2>Every couple receives a film with the craft and feeling of true cinema. For those who want something more, we go further.</h2>
+      <h2 class="display-xl">Every couple receives a film with the craft and feeling of true cinema. <span class="it" style="display:block;font-style:italic">For those who want something more, we go further.</span></h2>
     </div>
-    <div class="split">
-      <div class="prose reveal">
-        <h3>The highlight film</h3>
-        <p>Included with every wedding, and made to a standard most couples only expect from the movies. Filmed by multiple cinematographers from every angle, so nothing is flat or missed. Then it is color graded by hand, frame by frame, scored, and cut with the rhythm and pacing of a short film. The result does not look like a wedding video. It looks like cinema, because it is made like cinema.</p>
-      </div>
-      <div class="prose reveal">
-        <h3>The cinematic feature film</h3>
-        <p>Imagine a film about the two of you, the kind you would see in a theater, except it is real, and it is yours. It begins long before the wedding, with sit-down interviews where you tell your story in your own words. We film your engagement. We capture the wedding not just as it looked but as it felt. And after, now married, we sit with you once more to look back. Every frame is directed, scored, and graded, then woven into a feature film of your love story, with your wedding at its heart. Ask us, and we will tell you what it takes.</p>
-      </div>
-    </div>
-    <p class="reveal" style="margin-top:2rem;color:var(--stone-dark);font-size:1rem">[Film reels from Alex catalog — motion samples were not exported into this draft.]</p>
+    <figure class="reveal d2">
+      <img src="bkp-25.webp" width="1800" height="1013" alt="A candlelit reception aisle, flowers along both sides, a lavender canopy at the end of the room">
+    </figure>
   </div>
-</section>
-<section class="section-tight">
-  <div class="wrap">
-    <div class="pair">
-      <figure class="frame reveal"><img src="px-18253474876.webp" width="1067" height="1600" alt="A couple standing together in a grand hall"></figure>
-      <figure class="frame reveal"><img src="px-18253475003.webp" width="1067" height="1600" alt="Sunlight through a veil, photographed in motion"></figure>
-    </div>
+  <div class="film-offer">
+    <article class="reveal">
+      <h3>The highlight film</h3>
+      <p>Included with every wedding, and made to a standard most couples only expect from the movies. Filmed by multiple cinematographers from every angle, so nothing is flat or missed. Then it is color graded by hand, frame by frame, scored, and cut with the rhythm and pacing of a short film. The result does not look like a wedding video. It looks like cinema, because it is made like cinema.</p>
+    </article>
+    <article class="reveal d1">
+      <h3>The cinematic feature film</h3>
+      <p>Imagine a film about the two of you, the kind you would see in a theater, except it is real, and it is yours. It begins long before the wedding, with sit-down interviews where you tell your story in your own words. We film your engagement. We capture the wedding not just as it looked but as it felt. And after, now married, we sit with you once more to look back. Every frame is directed, scored, and graded, then woven into a feature film of your love story, with your wedding at its heart. Ask us, and we will tell you what it takes.</p>
+    </article>
+  </div>
+  <p class="note reveal" style="width:min(1280px,100%);margin:2.4rem auto 0;padding:0 4.5vw;color:var(--stone)">Motion films from the studio catalog will appear here once they are exported into this draft.</p>
+  <div class="still-row">
+    <figure class="reveal">
+      <img src="px-18253474876.webp" width="1067" height="1600" alt="A couple standing together in a grand hall">
+    </figure>
+    <figure class="reveal d1">
+      <img src="px-18253475003.webp" width="1067" height="1600" alt="Sunlight through a veil, photographed in motion">
+    </figure>
+    <figure class="reveal d2">
+      <img src="bkp-26.webp" width="1800" height="1013" alt="A reception room at night, tables set under pink canopies and chandeliers">
+    </figure>
   </div>
 </section>
 
@@ -100,10 +149,10 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a class="logo" href="index.html">
-        <span class="logo-script">Benjamin Korn</span>
-        <span class="logo-sub">Studio</span>
-      </a>
+      <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
+    </a>
       <p>A team-run studio for the modern wedding. Long Island &amp; worldwide.</p>
     </div>
     <div>
@@ -130,6 +179,13 @@
     <span>The Wedding Edit</span>
   </div>
 </footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button">Close</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">‹</button>
+  <img src="" alt="">
+  <button class="lb-nav lb-next" type="button" aria-label="Next">›</button>
+  <p class="lb-cap"></p>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

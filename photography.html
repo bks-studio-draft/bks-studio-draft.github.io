@@ -4,107 +4,212 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Photography — Benjamin Korn Studio</title>
-  <meta name="description" content="Wedding, engagement, mitzvah, and portrait photography from Benjamin Korn Studio.">
+  <meta name="description" content="Wedding, engagement, mitzvah, and portrait photography by Benjamin Korn Studio.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
-<header class="site-header">
+<header class="site-header is-solid">
   <div class="header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-script">Benjamin Korn</span>
-      <span class="logo-sub">Studio</span>
+    <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav>
-        <a href="about.html">The Studio</a>
-        <a href="experience.html">Experience</a>
-        <a href="photography.html" aria-current="page">Photography</a>
-        <a href="cinematography.html">Film</a>
-        <a href="albums.html">Albums</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
   </div>
 </header>
+<div class="menu-overlay" id="site-menu" role="dialog" aria-label="Site menu">
+  <div class="menu-left">
+    <nav>
+      <ul class="menu-links">
+        <li><a href="index.html" data-img="index.html"><span class="num">01</span>Home</a></li>
+        <li><a href="about.html" data-img="about.html"><span class="num">02</span>The Studio</a></li>
+        <li><a href="experience.html" data-img="experience.html"><span class="num">03</span>Experience</a></li>
+        <li><a href="photography.html" data-img="photography.html" aria-current="page"><span class="num">04</span>Photography</a></li>
+        <li><a href="cinematography.html" data-img="cinematography.html"><span class="num">05</span>Film</a></li>
+        <li><a href="albums.html" data-img="albums.html"><span class="num">06</span>Albums</a></li>
+        <li><a href="catalog.html" data-img="catalog.html"><span class="num">07</span>Catalog</a></li>
+        <li><a href="faqs.html" data-img="faqs.html"><span class="num">08</span>FAQs</a></li>
+        <li><a href="contact.html" data-img="contact.html"><span class="num">09</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="menu-right">
+      <img src="px-18253474887.webp" data-img="index.html" class="" style="object-position:center 32%" alt="" width="800" height="1200">
+      <img src="px-18253474876.webp" data-img="about.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253474880.webp" data-img="experience.html" class="" style="object-position:center 48%" alt="" width="800" height="1200">
+      <img src="px-18253479932.webp" data-img="photography.html" class="is-on" style="object-position:center 72%" alt="" width="800" height="1200">
+      <img src="px-18253475005.webp" data-img="cinematography.html" class="" style="object-position:center 55%" alt="" width="800" height="1200">
+      <img src="photo-116.webp" data-img="albums.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+      <img src="spread-01.webp" data-img="catalog.html" class="" style="object-position:center 40%" alt="" width="800" height="1200">
+      <img src="px-18253479854.webp" data-img="faqs.html" class="" style="object-position:center 38%" alt="" width="800" height="1200">
+      <img src="photo-124.webp" data-img="contact.html" class="" style="object-position:center 50%" alt="" width="800" height="1200">
+    <div class="menu-meta">
+      406 Central Avenue, Cedarhurst, Long Island<br>
+      <a href="tel:+13474044109">347.404.4109</a> &nbsp;·&nbsp; <a href="mailto:info@benjaminkornstudio.com">info@benjaminkornstudio.com</a>
+    </div>
+  </div>
+</div>
 <main>
 
-<section class="section-tight">
-  <div class="wrap reveal" style="max-width:40rem">
-    <span class="kicker">Photography</span>
-    <h1>Our art</h1>
-    <p class="lede">A consistent eye across every part of the day, while each artist's instinct shapes the images that become your memories. You never have to wonder whether a moment was caught. It already was.</p>
+<header class="page-mast">
+  <div class="page-mast-grid">
+    <div class="reveal">
+      <span class="kicker">Photography</span>
+      <h1>Our art</h1>
+      <p class="lede">A consistent eye across every part of the day, while each artist's instinct shapes the images that become your memories. You never have to wonder whether a moment was caught. It already was.</p>
+    </div>
+    <figure class="page-mast-fig reveal d2">
+      <img src="px-18253474887.webp" width="1067" height="1600" alt="A couple close together beneath a chandelier">
+    </figure>
   </div>
-</section>
-<section class="section-tight">
-  <div class="wrap reveal" style="display:flex;flex-wrap:wrap;gap:.8rem 1.5rem;font-family:var(--sans);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--stone-dark)">
-    <a href="#weddings">Weddings</a>
-    <a href="#engagements">Engagements</a>
-    <a href="#mitzvahs">Mitzvahs</a>
-    <a href="#portraits">Portraits</a>
-  </div>
-</section>
-<section class="section" id="weddings">
-  <div class="wrap">
-    <div class="reveal" style="margin-bottom:1.6rem;max-width:36rem">
+</header>
+
+<nav class="collection-nav reveal" aria-label="Collections">
+  <a href="#weddings">Weddings</a>
+  <a href="#engagements">Engagements</a>
+  <a href="#mitzvahs">Mitzvahs</a>
+  <a href="#portraits">Portraits</a>
+</nav>
+
+<section class="chapter" id="weddings">
+  <div class="chapter-head">
+    <div class="reveal">
       <span class="kicker">Weddings</span>
       <h2>The day is yours to live.</h2>
-      <p class="lede">Every moment unfolding across the room is ours to capture — the celebration and the quiet around it, freely and unprompted.</p>
     </div>
-    <div class="gallery">
-      <figure class="frame reveal"><img src="px-18253474915.webp" width="1067" height="1600" alt="The wedding party gathered with a vintage car"></figure>
-      <figure class="frame reveal"><img src="px-18253479842.webp" width="1600" height="1067" alt="A chateau on the wedding day"></figure>
-      <figure class="frame reveal"><img src="px-18253474887.webp" width="1067" height="1600" alt="A couple in a grand hall"></figure>
-      <figure class="frame reveal"><img src="px-20918813521.webp" width="1067" height="1600" alt="A couple standing before a brick house on their wedding day"></figure>
-    </div>
+    <p class="lede reveal d1">Every moment unfolding across the room is ours to capture — the celebration and the quiet around it, freely and unprompted.</p>
+  </div>
+  <div class="edit-grid">
+    <figure class="span-7 reveal">
+      <img src="px-18253474915.webp" width="1067" height="1600" alt="The wedding party gathered with a vintage car before a stone chateau">
+    </figure>
+    <figure class="span-5 drop reveal d1">
+      <img src="px-18253479842.webp" width="1600" height="1067" alt="A French-style chateau photographed on the wedding day">
+    </figure>
+    <figure class="span-5 reveal">
+      <img src="px-18253474887.webp" width="1067" height="1600" alt="A couple close together in a grand hall, beneath a chandelier">
+    </figure>
+    <figure class="span-7 reveal d1">
+      <img src="px-20918813521.webp" width="1067" height="1600" alt="A couple with a vintage car in front of a brick house at dusk, her gown filling the seat">
+    </figure>
+    <figure class="span-4 reveal">
+      <img src="px-18253474920.webp" width="1067" height="1600" alt="A couple leaning against a vintage car, the wedding party around them">
+    </figure>
+    <figure class="span-4 drop reveal d1">
+      <img src="bkp-22.webp" width="1253" height="1800" alt="A couple kissing on a pale staircase, the train of her lace gown falling down the steps">
+    </figure>
+    <figure class="span-4 reveal d2">
+      <img src="bkp-21.webp" width="1200" height="1800" alt="A close portrait of a couple, her veil around them">
+    </figure>
+    <figure class="span-7 reveal">
+      <img src="bkp-19.webp" width="1800" height="1200" alt="A couple kissing beneath a dense arch of flowers, a Hebrew ribbon above them">
+    </figure>
+    <figure class="span-5 drop reveal d1">
+      <img src="px-18253479932.webp" width="1067" height="1600" alt="A couple walking a formal garden path, her dress caught in the wind">
+    </figure>
+    <figure class="span-6 reveal">
+      <img src="bkp-17.webp" width="1800" height="1200" alt="A couple walking along a terrace, her long veil trailing behind them">
+    </figure>
+    <figure class="span-6 reveal d1">
+      <img src="bkp-10.webp" width="1800" height="1200" alt="A couple walking in front of a chateau, the long train of her gown on the drive">
+    </figure>
+    <figure class="span-5 reveal">
+      <img src="bkp-13.webp" width="1200" height="1800" alt="A couple behind a towering arrangement of white roses, a chandelier above">
+    </figure>
+    <figure class="span-7 reveal d1">
+      <img src="bkp-28.webp" width="1800" height="1013" alt="A couple standing in a stone archway, the long train of her gown across the floor">
+    </figure>
   </div>
 </section>
-<section class="section" id="engagements" style="background:var(--bg-warm)">
-  <div class="wrap">
-    <div class="reveal" style="margin-bottom:1.6rem;max-width:36rem">
+
+<section class="chapter" id="engagements">
+  <div class="chapter-head">
+    <div class="reveal">
       <span class="kicker">Engagements</span>
       <h2>From the very first moments.</h2>
-      <p class="lede">The proposal, the engagement walk, the celebrations long before the wedding is planned. Where the cameras, and your photographer, begin to feel familiar.</p>
     </div>
-    <div class="gallery">
-      <figure class="frame reveal"><img src="px-18677359662.webp" width="1067" height="1600" alt="A couple in a doorway during their engagement session"></figure>
-      <figure class="frame reveal"><img src="px-18677359685.webp" width="1067" height="1600" alt="A couple walking a city street"></figure>
-      <figure class="frame reveal"><img src="px-18687098390.webp" width="1067" height="1600" alt="A close engagement portrait"></figure>
-      <figure class="frame reveal"><img src="px-18687098394.webp" width="1067" height="1600" alt="A couple walking together in the city"></figure>
-    </div>
+    <p class="lede reveal d1">The proposal, the engagement walk, the celebrations long before the wedding is planned. Where the cameras, and your photographer, begin to feel familiar.</p>
+  </div>
+  <div class="edit-grid">
+    <figure class="span-5 reveal">
+      <img src="px-18677359662.webp" width="1067" height="1600" alt="A couple standing close in a tall stone doorway, red steps beneath them">
+    </figure>
+    <figure class="span-7 drop reveal d1">
+      <img src="px-18677359685.webp" width="1067" height="1600" alt="A couple kissing on a city street, a church spire behind them">
+    </figure>
+    <figure class="span-6 reveal">
+      <img src="px-18687098390.webp" width="1067" height="1600" alt="A close engagement portrait, her head against his as he kisses her hair">
+    </figure>
+    <figure class="span-6 reveal d1">
+      <img src="px-18687098394.webp" width="1067" height="1600" alt="A couple walking a city street, photographed in black and white, tall buildings above them">
+    </figure>
+    <figure class="span-8 reveal">
+      <img src="px-18677359661.webp" width="1067" height="1600" alt="A couple walking a tree-lined city street, she in a gold gown, he in a dark jacket">
+    </figure>
+    <figure class="span-4 drop-more reveal d1">
+      <img src="bkp-15.webp" width="1800" height="1200" alt="A couple standing on a white pier, a wide river and a bridge behind them">
+    </figure>
   </div>
 </section>
-<section class="section" id="mitzvahs">
-  <div class="wrap">
-    <div class="reveal" style="margin-bottom:1.6rem;max-width:36rem">
+
+<section class="chapter" id="mitzvahs">
+  <div class="chapter-head">
+    <div class="reveal">
       <span class="kicker">Mitzvahs</span>
       <h2>Celebrations that gather everyone in one room again.</h2>
-      <p class="lede">The same studio, the same quiet attention, for the milestones that follow a wedding and the days a family will want to keep.</p>
     </div>
-    <div class="gallery">
-      <figure class="frame reveal"><img src="px-18498568219.webp" width="1067" height="1600" alt="A portrait in a pale gown"></figure>
-      <figure class="frame reveal"><img src="px-18676971220.webp" width="1067" height="1600" alt="A formal portrait in a library"></figure>
-      <figure class="frame reveal"><img src="px-18676971227.webp" width="1067" height="1600" alt="A family portrait"></figure>
-      <figure class="frame reveal"><img src="px-18676971235.webp" width="1067" height="1600" alt="A reception room set with chandeliers"></figure>
-    </div>
+    <p class="lede reveal d1">The same studio, the same quiet attention, for the milestones that follow a wedding and the days a family will want to keep.</p>
+  </div>
+  <div class="edit-grid">
+    <figure class="span-4 reveal">
+      <img src="px-18498568219.webp" width="1067" height="1600" alt="A young girl in a pale gown, seated for a portrait in a white room">
+    </figure>
+    <figure class="span-4 drop reveal d1">
+      <img src="px-18676971220.webp" width="1067" height="1600" alt="A formal portrait of a boy in a dark suit, standing before a wall of books">
+    </figure>
+    <figure class="span-4 reveal d2">
+      <img src="px-18676971227.webp" width="1067" height="1600" alt="A family portrait in a library, two girls in pink and two parents in formal dress">
+    </figure>
+    <figure class="span-7 reveal">
+      <img src="px-18676971235.webp" width="1067" height="1600" alt="A reception table set with tall glass candelabra, flowers, and blue drapery">
+    </figure>
+    <figure class="span-5 drop reveal d1">
+      <img src="bkp-07.webp" width="1200" height="1800" alt="A young girl in a white dress running across a lawn toward the camera">
+    </figure>
   </div>
 </section>
-<section class="section" id="portraits" style="background:var(--bg-warm)">
-  <div class="wrap">
-    <div class="reveal" style="margin-bottom:1.6rem;max-width:36rem">
+
+<section class="chapter" id="portraits" style="padding-bottom:6rem">
+  <div class="chapter-head">
+    <div class="reveal">
       <span class="kicker">Portraits</span>
       <h2>The ordinary afternoons that turn out to matter most.</h2>
-      <p class="lede">Portraits by appointment in our showroom, and sessions for the life that unfolds after the wedding day.</p>
     </div>
-    <div class="gallery">
-      <figure class="frame reveal"><img src="px-18674372714.webp" width="1067" height="1600" alt="A portrait at the water’s edge"></figure>
-      <figure class="frame reveal"><img src="px-18674371273.webp" width="1067" height="1600" alt="A couple walking along the shoreline"></figure>
-      <figure class="frame reveal"><img src="px-18687434991.webp" width="1067" height="1600" alt="A portrait in a light suit"></figure>
-      <figure class="frame reveal"><img src="px-18687435023.webp" width="1067" height="1600" alt="A formal portrait in a tuxedo"></figure>
-    </div>
+    <p class="lede reveal d1">Portraits by appointment in our showroom, and sessions for the life that unfolds after the wedding day.</p>
+  </div>
+  <div class="edit-grid">
+    <figure class="span-5 reveal">
+      <img src="px-18674372714.webp" width="1067" height="1600" alt="A woman in a white dress walking the shoreline, the sea behind her">
+    </figure>
+    <figure class="span-7 reveal d1">
+      <img src="px-18674371273.webp" width="1067" height="1600" alt="A couple spinning together at the water's edge">
+    </figure>
+    <figure class="span-4 reveal">
+      <img src="px-18687434991.webp" width="1067" height="1600" alt="A portrait of a man in a light suit against a wood wall">
+    </figure>
+    <figure class="span-4 drop reveal d1">
+      <img src="px-18687435023.webp" width="1067" height="1600" alt="A formal portrait of a man in a navy tuxedo">
+    </figure>
+    <figure class="span-4 reveal d2">
+      <img src="bkp-05.webp" width="1800" height="1200" alt="A family lifting two young children, photographed in a studio with a blue wall">
+    </figure>
   </div>
 </section>
 
@@ -112,10 +217,10 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a class="logo" href="index.html">
-        <span class="logo-script">Benjamin Korn</span>
-        <span class="logo-sub">Studio</span>
-      </a>
+      <a class="wordmark" href="index.html">
+      <span class="wm-name">Benjamin Korn</span>
+      <span class="wm-studio">Studio</span>
+    </a>
       <p>A team-run studio for the modern wedding. Long Island &amp; worldwide.</p>
     </div>
     <div>
@@ -142,6 +247,13 @@
     <span>The Wedding Edit</span>
   </div>
 </footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button">Close</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">‹</button>
+  <img src="" alt="">
+  <button class="lb-nav lb-next" type="button" aria-label="Next">›</button>
+  <p class="lb-cap"></p>
+</div>
 <script src="main.js"></script>
 </body>
 </html>
